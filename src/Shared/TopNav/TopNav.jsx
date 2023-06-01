@@ -10,7 +10,7 @@ const TopNav = () => {
                     <div className='flex text-2xl space-x-2 text-gray-400 items-center'>
                         <FaFacebook className='hover:text-blue-600 cursor-pointer'></FaFacebook>
                         <FaTwitter className='hover:text-blue-600 cursor-pointer'></FaTwitter>
-                        <FaPinterest className='hover:bg-red-600 cursor-pointer'></FaPinterest>
+                        <FaPinterest className='hover:text-red-600 cursor-pointer'></FaPinterest>
                         <FaLinkedin className='hover:text-blue-800 cursor-pointer'></FaLinkedin>
                     </div>
                     <div className='flex space-x-6 items-center'>

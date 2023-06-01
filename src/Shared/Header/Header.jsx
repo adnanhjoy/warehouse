@@ -18,7 +18,7 @@ const Header = () => {
                 </div>
                 <div className='flex items-center border-2 rounded'>
                     <input className='rounded p-2 w-full' type="text" placeholder='search' />
-                    <FaSearch className=' m-2'></FaSearch>
+                    <FaSearch className='cursor-pointer m-2'></FaSearch>
                 </div>
             </div>
             <div className='text-center'>
