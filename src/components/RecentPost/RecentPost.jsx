@@ -12,7 +12,7 @@ const RecentPost = () => {
 
     return (
         <div className='my-10'>
-            <h4 className='text-center my-10 text-lg text-gray-400'>Recent Posts</h4>
+            <h4 className='text-center my-10 text-lg text-gray-600 font-semibold'>Recent Posts</h4>
             <div className=' w-10/12 m-auto'>
                 <Carousel cols={3} rows={1} gap={10} loop>
                     {
