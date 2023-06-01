@@ -8,7 +8,8 @@ const NavBar = () => {
         <div className='border-y-4'>
             <nav className='flex space-x-5 justify-center items-center text-gray-500 font-semibold'>
                 <li className=' list-none hover:bg-black hover:text-white py-3 px-6 cursor-pointer uppercase'><span><FaHome></FaHome></span></li>
-                <li className=' list-none hover:bg-black hover:text-white p-3 cursor-pointer uppercase dropdown'>Categories Tab
+                <li className='list-none hover:bg-black hover:text-white p-3 cursor-pointer uppercase dropdown'>
+                    <Link>Categories Tab</Link>
                     <ul className='dropdown-content'>
                         <div className='flex w-11/12'>
                             <div className='w-96'>
@@ -72,7 +73,7 @@ const NavBar = () => {
                     </ul>
                 </li>
                 <li className=' list-none hover:bg-black hover:text-white p-3 cursor-pointer uppercase dropdown'>Another Tab
-                <ul className='dropdown-content'>
+                    <ul className='dropdown-content'>
                         <div className='flex w-11/12'>
                             <div className='w-96'>
                                 <li><Link><small>T Shirts</small></Link></li>
